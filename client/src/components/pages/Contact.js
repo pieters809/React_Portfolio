@@ -4,7 +4,7 @@ import { Jumbotron, Container } from "react-bootstrap";
 const Contact = () => (
   <div>
     <Jumbotron>
-      <h3 className="about">Contact/Leave Feedback</h3>
+      <h3 className="contact">Contact/Leave Feedback</h3>
       <Container>
         <form>
           <div class="form-group">
