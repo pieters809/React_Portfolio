@@ -12,14 +12,19 @@ const Portfolio = () => (
         <Row className="justify-content-md-center">
           <Col md="auto">
             <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img variant="top" src="./" />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Computer Quiz</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Simple quiz app to put your computer hardware and software
+                  knowledge to the test.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <a
+                  href="https://github.com/pieters809/Code_Quiz"
+                  class="btn btn-primary"
+                >
+                  Github Link
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -27,12 +32,18 @@ const Portfolio = () => (
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Personal Dashboard</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Allows you to quickly take a glance of your dy by uncluding
+                  the basic gadgets as part of a dashboard to get your day
+                  started.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <a
+                  href="https://github.com/pieters809/personal-dashboard"
+                  class="btn btn-primary"
+                >
+                  Github Link
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -40,12 +51,17 @@ const Portfolio = () => (
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Budget Tracker</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  App that allows you to keep track of your expenses and income
+                  using local storage from your computer.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <a
+                  href="https://github.com/pieters809/Budget_Trackers"
+                  class="btn btn-primary"
+                >
+                  Github Link
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -61,7 +77,9 @@ const Portfolio = () => (
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <a href="" class="btn btn-primary">
+                  Github Link
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -74,7 +92,9 @@ const Portfolio = () => (
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <a href="" class="btn btn-primary">
+                  Github Link
+                </a>
               </Card.Body>
             </Card>
           </Col>
@@ -87,12 +107,13 @@ const Portfolio = () => (
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <a href="" class="btn btn-primary">
+                  Github Link
+                </a>
               </Card.Body>
             </Card>
           </Col>
         </Row>
-       
       </Container>
     </Jumbotron>
   </div>
